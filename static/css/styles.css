@@ -1,0 +1,22 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Horizontally centers the images */
+    align-items: center; /* Vertically aligns items if there's extra space */
+}
+
+/* Style for each image */
+.gallery img {
+    width: 150px; /* You can adjust the width */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.demo img {
+    width: 800px; /* You can adjust the width */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
